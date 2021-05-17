@@ -13,23 +13,23 @@ export const Container = styled.div`
         color: var(--text-title);
     
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-    strong {
-        display: block;
-        margin-top: 1rem;
-        font-size: 2rem;
-        font-weight: 500;
-        line-height: 3rem;
-    }
+        strong {
+            display: block;
+            margin-top: 1rem;
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 3rem;
+        }
 
-    &.highlight-background {
-        background: var(--green);
-        color: #fff;
-    }
+        &.highlight-background {
+            background: var(--green);
+            color: #fff;
+        }
     }
 `;
