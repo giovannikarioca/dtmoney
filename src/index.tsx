@@ -19,6 +19,12 @@ createServer({
         }
       ]
     })
+
+    this.post('/transactios', (schema, request) => {
+      const data = JSON.parse(request.requestBody)
+
+      return data
+    })
   }
 })
 
